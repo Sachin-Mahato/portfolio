@@ -1,0 +1,10 @@
+:root {
+  --clr-main-bg:  #0F1624;
+  --clr-gradient: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
+  --clr-text: #929EB0;
+  --clr-text-header: #fff;
+
+  /* font */
+  --fs-normal: 1rem;
+;
+}
