@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap');
 :root {
-  --clr-main-bg:  #0F1624;
-  --clr-gradient: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
-  --clr-text: #929EB0;
-  --clr-text-header: #fff;
+  --clr-main-bg:  #f2f2f2;
+  --clr-text: #b3c3d7;
+  --clr-dark-mode: #1c2025;
+  --clr-dark-black: #27282f;
+  --clr-text-header: #106370;
+  --clr-title: #10f0fc;
 
   /* font */
   --fs-normal: 1rem;

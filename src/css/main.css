@@ -1,44 +1,17 @@
-@import url(./variables.css);
-
 body {
+  font-family: 'Ubuntu', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif sans-serif;
   background-color: var(--clr-main-bg);
-  color: var(--clr-text);
-  min-height: 100dvh;
-  font-size: var(--fs-normal);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Navbar */
-.navbar {
-  text-transform: capitalize;
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
-  grid-template-columns: repeat(2,1fr);
-  --margin-1: 1em;
-  margin-block-start: var(--margin-1);
-  .logo {
-    color: var(--clr-text-header);
-    grid-column-start: 1;
-    grid-row-start: 1;
-    place-self: center;
-  }
-  ul {
-    grid-row-start: 2;
-    grid-row-end: 2 span;
-    grid-column-start: 1;
-    grid-column-end: 3;
-    list-style-type: none;
-    display: flex;
-    justify-content: space-around;
-    gap: 0.5em;
-    padding: 0;
-    margin-block-start: var(--margin-1);
-   li > a {
-    text-decoration: none;
-    color: var(--clr-text-header);
-   }
-  }
-  .social-icons {
-    place-self: center;
-  }
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.links {
+  height: 0;
+  overflow: hidden;
+}
+.show-links {
+  height: 10rem;
 }
