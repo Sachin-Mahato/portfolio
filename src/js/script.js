@@ -10,6 +10,8 @@ navToggle.addEventListener('click', () => {
   //   links.classList.add('show-links');
   // }
 
-  links.classList.toggle('show-links')
-}
-)
+  links.classList.toggle('show-links');
+  navToggle.classList.toggle('active');
+});
+
+
