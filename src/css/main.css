@@ -1,12 +1,16 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background-color: var(--clr-main-bg);
   color: var(--clr-dark-black);
   font-size: var(--fs-normal);
+  padding: 1em;
 }
 /* Navbar */
 .navbar {
-  padding: 1em;
 }
 .nav-wrapper {
   display: flex;
@@ -93,6 +97,14 @@ body {
 }
 
 /* Hero section */
+.hero {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+}
 .hero_img {
   width: 150px;
   height: 150px;
@@ -105,6 +117,11 @@ body {
   color: var(--clr-text-header);
   font-weight: 700;
   text-align: center;
+}
+.hero_descr {
+  text-align: center;
+  margin-inline: 1em;
+  margin-block-end: 1em;
 }
 
 .hero_button {
@@ -119,4 +136,24 @@ body {
   padding-inline: 0.7em;
   display: block;
   margin: 0 auto;
+  cursor: pointer;
+}
+
+/* About Page */
+.about_title {
+  color: var(--clr-text-header);
+  font-size: 1.8rem;
+  text-transform: capitalize;
+}
+.about_tools {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  margin-block-start: 3em;
+  img {
+    width: 120px;
+    height: 120px;
+  }
 }
