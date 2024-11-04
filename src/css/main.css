@@ -233,6 +233,7 @@ svg {
   translate: -50%;
   width: 174px;
   height: auto;
+  margin-block-start: 1em;
 }
 
 .hero__rings {
